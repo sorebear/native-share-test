@@ -48,4 +48,5 @@ button:disabled {
   background-color: #ccc;
   color: #eee;
   border: 2px solid #eee;
+  cursor: not-allowed;
 }

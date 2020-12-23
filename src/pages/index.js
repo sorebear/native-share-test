@@ -8,7 +8,7 @@ const IndexPage = () => {
 
   const shareData = {
     title: "Native Share Test",
-    text: 'This page is testing the functionality of utilizing native sharing on a button click.',
+    text: 'This test page utilizes native device sharing on a button click.',
     url: 'https://nativesharetest.netlify.app',
   }
 
@@ -33,7 +33,7 @@ const IndexPage = () => {
       <p>Clicking the button below should bring up your device's native options for sharing this page.</p>
       <button
         onClick={(e) => handleButtonClick(e)}
-        disabled={true}
+        disabled={buttonText !== 'Share This Page'}
       >
         {buttonText}
       </button>
